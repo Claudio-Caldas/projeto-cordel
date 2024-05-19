@@ -1,17 +1,4 @@
 @charset "UTF-8";
-/*
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap'); 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Ultra&display=swap');
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aldrich&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Ultra&display=swap');
 
 * {
@@ -80,7 +67,7 @@ header p > a {
     font-weight: 400;
     font-style: normal;  
     text-decoration: none;
-    text-shadow: 1px 1px 14px#e2b324c7;
+    /*text-shadow: 1px 1px 14px#e2b324c7; */
     padding-left:5px ;
     
 }
@@ -92,13 +79,13 @@ header p a:hover {
     padding: .5px 3px;
     transition:2s ;
 }
-
+/*
 header p a:visited {
     color:rgba(195, 214, 163, 0.411);
     text-shadow: 1px 1px 2px#e2b324c7; 
     
 }
-
+*/
 section {
     padding-top: 5vh;
     padding-bottom: 2vh;
