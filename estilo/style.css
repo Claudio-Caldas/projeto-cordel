@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/*
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap'); 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Ultra&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aldrich&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Ultra&display=swap');
+
+* {
+    margin: 0.1px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white 
+}
+header {
+    
+    background-color: #022601; 
+   text-align: center;
+    color: rgba(195, 214, 163, 0.411);
+    margin-bottom: 13px;   
+    
+}
+
+#livro {
+    
+    padding-top: 22px;
+       
+    
+}
+
+ h1 {
+    padding-top: 10px;
+    padding-top: 10px;;
+    font-variant: small-caps;
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+    color: rgba(195, 214, 163, 0.411);
+    text-align: center;
+    text-shadow:1px 1px 41px white ;
+        
+}
+
+#header-p-a {
+    font-size: 3vh;
+}
+
+.header-p {
+    padding-bottom: 30px;
+    padding-right: 12px;
+    color: rgba(195, 214, 163, 0.411);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    text-align: center;
+    
+}
+
+.header-p:not(a) {
+    font-size: 2.3vh;
+}
+
+header p > a {
+    color:#da1212d0;
+   
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;  
+    text-decoration: none;
+    text-shadow: 1px 1px 14px#e2b324c7;
+    padding-left:5px ;
+    
+}
+
+header p a:hover {
+    color:#F2B705;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: .5px 3px;
+    transition:2s ;
+}
+
+header p a:visited {
+    color:rgba(195, 214, 163, 0.411);
+    text-shadow: 1px 1px 2px#e2b324c7; 
+    
+}
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3vh;
+}
+
+section >  p {
+    padding-bottom: 2em;
+}
+section.normal, .imagem {
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+section.imagem {
+    background-attachment: fixed;
+}
+
+section.normal p {
+    padding: 0 10px;
+    padding-bottom: 2em;
+}
+
+
+section.imagem  p {
+    display: inline-block;
+    background-color: rgba(195, 214, 163, 0.74);
+    text-shadow: 1px 1px 7px #022601; 
+    padding: 0 10px;  
+
+}
+
+section#img001 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: top center;
+    text-shadow: #022601;
+    background-size: cover;
+    box-shadow: 4px 4px 13px 0px #010e00 ;
+}
+
+#img002 {
+    background-image: url(../imagens/background002.jpg);
+    background-position:bottom right ;
+    background-size: cover;
+    box-shadow: 4px 4px 13px 0px #022601 ;
+}
+
+#repeatImg {
+    background-image: url(../imagens/background001.jpg);
+    background-position: top center;
+    text-shadow: #022601;
+    background-size: cover;
+    padding-bottom: 12px;
+    margin-bottom: -12px;
+    box-shadow: 4px 4px 13px 0px #022601 ;
+}
+
+footer {
+   
+    background-color: #021a01;
+    color: rgba(195, 214, 163, 0.411);
+    text-align: center;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    
+   
+}
+
+footer p {
+    
+    padding: 5px 5px 14px 5px;
+}
+
+.footer-p-a {
+    color:#da1212d0; 
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-shadow: 1px 1px 14px #e2b324c7;
+    padding-left:5px ;
+}
+
+
+footer p a:hover {
+    
+    color:#F2B705;
+    text-decoration: underline;
+    text-shadow: 1px 2px 1px rgba(195, 214, 163, 0.411);
+    padding: .5px 3px;
+    transition:2s;
+}
+footer p a:visited {
+    color:rgba(195, 214, 163, 0.411);
+    text-shadow: 1px 1px 2px#e2b324c7; 
+    
+}
+
+footer > img {
+    padding-top: 15px;
+    
+}
