@@ -22,8 +22,7 @@ header {
 #livro {
     
     padding-top: 22px;
-       
-    
+          
 }
 
  h1 {
@@ -94,12 +93,11 @@ section {
     font-size: 3vh;
 }
 
-section >  p {
-    padding-bottom: 2em;
-}
+
 section.normal, .imagem {
     
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
 }
 
 section.imagem {
