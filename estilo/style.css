@@ -78,6 +78,7 @@ header p > a {
     font-weight: 400;
     font-style: normal;  
     text-decoration: none;
+    text-shadow: 1px 1px 1px yellow;
    
     /*text-shadow: 1px 1px 14px#e2b324c7; */
     padding-left:5px ;
@@ -126,7 +127,8 @@ section.normal p {
 section.imagem  p {
     display: inline-block;
     background-color: rgba(195, 214, 163, 0.74);
-    text-shadow: 1px 1px 7px #022601; 
+    color:#022601;
+    text-shadow: 1px 1px 7px rgb(94, 94, 1); 
     padding: 0 10px;  
 
 }
