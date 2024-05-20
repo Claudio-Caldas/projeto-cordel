@@ -49,18 +49,20 @@ header div {
     font-variant: small-caps;
     font-weight: bold;
     text-align: right; 
-    font-size: 4.3vh;   
+    font-size: 3.3vh;   
 }
 
 .header-p:not(a) {
-    font-size: 3.7vh;
+    font-size: 3.3vh;
+    padding-right: 34px;
 }
 
 header p > a {
     color:#da1212d0;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;
+    font-size:5vh;  
     text-decoration: none;
     text-shadow: 1px 1px 2px yellow;  
     /*text-shadow: 1px 1px 14px#e2b324c7; */
