@@ -12,51 +12,63 @@ html, body {
 }
 header {
     
-    background-color: #022601; 
+    /* background-color: #022601; */
+    background-image: url(../imagens/background003.jpg);
+    background-position: top left;
+    background-attachment: fixed;
    text-align: center;
-    color: rgba(195, 214, 163, 0.411);
+    color: #022601;
     margin-bottom: 13px;   
     
 }
 
+header div {
+    text-align: right;
+   
+}
+
 #livro {
     
-    padding-top: 22px;
+    padding-top: 42px;
+    padding-right: 43px;
+    width: 137px;
+   
           
 }
 
  h1 {
-    padding-top: 10px;
-    padding-top: 10px;;
+    padding-top: 30px;
     font-variant: small-caps;
     font-family: "Aldrich", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5vh;
-    color: rgba(195, 214, 163, 0.411);
+    font-size: 7vh;
+    color: rgba(195, 214, 163, 0.74);
     text-align: center;
     text-shadow:1px 1px 41px white ;
         
 }
 
 #header-p-a {
-    font-size: 3vh;
+    font-size: 4.3vh;
 }
 
 .header-p {
     padding-bottom: 30px;
     padding-right: 12px;
-    color: rgba(195, 214, 163, 0.411);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(195, 214, 163, 0.74);
+    font-variant: small-caps;
+    font-family: "Aldrich", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variant: small-caps;
     text-align: center;
     
+    
 }
 
 .header-p:not(a) {
-    font-size: 2.3vh;
+    font-size: 3.3vh;
 }
 
 header p > a {
@@ -66,6 +78,7 @@ header p > a {
     font-weight: 400;
     font-style: normal;  
     text-decoration: none;
+   
     /*text-shadow: 1px 1px 14px#e2b324c7; */
     padding-left:5px ;
     
@@ -90,7 +103,7 @@ section {
     padding-bottom: 2vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 3vh;
+    font-size: 3.2vh;
 }
 
 
@@ -119,7 +132,7 @@ section.imagem  p {
 }
 
 section#img001 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/background004.jpg);
     background-position: top center;
     text-shadow: #022601;
     background-size: cover;
@@ -127,11 +140,14 @@ section#img001 {
 }
 
 #img002 {
-    background-image: url(../imagens/background002.jpg);
-    background-position:bottom right ;
+    background-image: url(../imagens/background003.jpg);
+   
+    background-position:left top ;
     background-size: cover;
     box-shadow: 4px 4px 13px 0px #022601 ;
 }
+
+
 
 #repeatImg {
     background-image: url(../imagens/background001.jpg);
@@ -145,11 +161,14 @@ section#img001 {
 
 footer {
    
-    background-color: #021a01;
-    color: rgba(195, 214, 163, 0.411);
+    background-image: url(../imagens/background006.jpg);
+    background-position: top right;
+    color: rgba(195, 214, 163, 0.74);
     text-align: center;
-    margin-top: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.2em;
     
    
@@ -157,7 +176,7 @@ footer {
 
 footer p {
     
-    padding: 5px 5px 14px 5px;
+    padding: 15px 5px 7px 13px;
 }
 
 .footer-p-a {
@@ -186,6 +205,7 @@ footer p a:visited {
 }
 
 footer > img {
-    padding-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 13px;
     
 }
