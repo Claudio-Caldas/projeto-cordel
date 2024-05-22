@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aldrich&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Permanent+Marker&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aldrich&family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Merienda:wght@300..900&family=Permanent+Marker&family=Rock+Salt&family=Satisfy&family=Ultra&display=swap');
 
 * {
     margin: 0.1px;
@@ -36,7 +36,7 @@ header div {
     font-variant: small-caps;   
     font-weight: 700;
     font-style: normal;
-    font-size: 10vw;
+    font-size: 7vw;
     color: rgb(209, 243, 155);
     text-shadow: 2px 1px 13px rgb(4, 24, 2);
     text-align: center;      
@@ -49,7 +49,7 @@ header div {
     font-variant: small-caps;
     font-weight: bold;
     text-align: right; 
-    font-size: 5vw;   
+    font-size: 1vw;   
 }
 
 .header-p:not(a) {
@@ -59,10 +59,10 @@ header div {
 
 header p > a {
     color:#da1212d0;
-    font-family: "Kaushan Script", cursive;
+    font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size:5vw;  
+    font-size:4vw;  
     text-decoration: none;
     text-shadow: 1px 1px 2px yellow;  
     /*text-shadow: 1px 1px 14px#e2b324c7; */
@@ -139,7 +139,7 @@ section#img001 {
 
 #repeatImg {
     background-image: url(../imagens/background001.jpg);
-    background-position: top center;
+    background-position: center bottom;
     text-shadow: #022601;
     background-size: cover;
     padding-bottom: 12px;
