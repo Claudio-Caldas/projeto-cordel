@@ -164,17 +164,18 @@ footer {
 
 footer p {
     
-    padding: 15px 5px 7px 13px;
+    padding: 15px 5px 3px 13px;
 }
 
 .footer-p-a {
     color:#da1212d0;
-    font-family: "Kaushan Script", cursive;
+    font-family: "Rock Salt", cursive;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;
     text-decoration: none;
     text-shadow: 1px 1px 1px yellow;
     padding-left:5px ;
+    font-size: 2.1vw;
 }
 
 
@@ -193,7 +194,7 @@ footer p a:visited {
 }
 
 footer > img {
-    padding-top: 0px;
+    padding-top: -15px;
     padding-bottom: 13px;
     
 }
